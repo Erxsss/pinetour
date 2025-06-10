@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategray;
+    overflow: scroll;
+}
+.head{
+    width:  1440px;
+    height: 773px;
+    background-image: url('photos/ha.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.topp{
+    width: 1204px;
+    height: 43.5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.left{
+    width: 101px;
+    height: 35px;
+    background-image: url('photos/t.png');
+    background-position: center;
+    background-size: cover;
+}
+.mid{
+    width: 392px;
+    height: 22px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.main{
+    width: 618px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    font-size: 150px;
+    color: white;
+}
+.h2{
+    font-size: 80px;
+    color: rgb(214, 211, 211);
+}
+.mid1{
+    width:  1440px;
+    height: 500px;
+    background-image: url('photos/a.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    width: 275.49px;
+    height: 370px;
+    background-image: url(photos/Hover\ card\ image.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.5s ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    width: 275.49px;
+    height: 370px;
+    background-image: url(photos/Hover\ card\ image\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.5s ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card2{
+    width: 275.49px;
+    height: 370px;
+    background-image: url(photos/Hover\ card\ image\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.5s ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    width: 275.49px;
+    height: 370px;
+    background-image: url(photos/Untitled.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.5s ;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#card:hover{
+    filter: brightness(50%);
+}
+.mid2{
+    width:  1440px;
+    height: 1022px;
+    background-image: url('photos/sd.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.toper{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#h11{
+    font-size: 50px;
+}
+#p{
+    font-size: 30px;
+    color: gray;
+}
+.mider{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.leftee{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nu1{
+    width: 513px;
+    height: 112px;
+    border-radius: 100px;
+    background-color: #ef476f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nu1:hover{
+    border: 5px solid white;
+}
+.nu2{
+    background-color: #ffd166;
+    width: 513px;
+    height: 112px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nu2:hover{
+    border: 5px solid white;
+}
+.nu3{
+    background-color: #06d6a0;
+    width: 513px;
+    height: 112px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nu3:hover{
+    border: 5px solid white;
+}
+.nu4{
+    background-color: #118ab2;
+    width: 513px;
+    height: 112px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nu4:hover{
+    border: 5px solid white;
+}
+.nu5{
+    background-color: #4995ae;
+    width: 513px;
+    height: 112px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nu5:hover{
+    border: 5px solid white;
+}
+#zuun{
+    width: 316px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.zu{
+    width: 14px;
+    height: 14px;
+}
+.dood{
+    display: flex;
+}
+#baruun{
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sukh{
+    position: absolute;
+    left: 1200px;
+    top: 1450px;
+    opacity: 0;
+}
+.nu1:hover ~ .sukh{
+    opacity: 1;
+}
+.khovs{
+    position: absolute;
+    left: 1500px;
+    top: 1700px;
+    opacity: 0;
+}
+.nu2:hover ~ .khovs{
+    opacity: 1;
+}
+.mons{
+    position: absolute;
+    left: 1300px;
+    top: 1800px;
+    opacity: 0;
+}
+.nu3:hover ~ .mons{
+    opacity: 1;
+}
+.khorg{
+    position: absolute;
+    left: 1100px;
+    top: 1600px;
+    opacity: 0;
+}
+.nu4:hover ~ .khorg{
+    opacity: 1;
+}
+.tsagaana{
+    position:absolute;
+    left: 1100px;
+    top: 1800px;
+    opacity: 0;
+}
+.nu5:hover ~ .tsagaana{
+    opacity: 1;
+}
+#zur{   
+    width: 200px;
+    height: 200px;
+}
+.foot{
+    width:  1440px;
+    height: 1120px;
+    background-image: url('photos/w.png');
+    background-position: center;
+    background-size: cover;
+}
+.ttop{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tmid{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#to{
+    width: 384px;
+    height: 527px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition: 0.3s ease ;
+}
+#to:hover{
+    border: 5px solid black;
+}
+.ond{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dund{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.im{
+    width: 36px;
+    height: 36px;
+}
+.tunder{
+    width: 100%;
+    height: 20%;
+}
+#h111{
+    font-size: 70px;
+}
+#p1{
+    font-size: 30px;
+    color: grey;
+}
+.ha{
+    font-size: 30px;
+}
+.dj{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+#siz{
+    width: 20px;
+    height: 20px;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+}
+.inc{
+    display: flex;
+}
+.te{
+    display: flex;
+}
+#pp{
+    color: grey;
+}
+.doodd{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    transition: 0.3s ease;
+}
+#to:hover .doodd{
+    filter: brightness(50%);
+}
+.ele{
+    width: 336px;
+    height: 48px;
+    background-color: rgb(119, 255, 112);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tunder{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 800px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}
+.ehni{
+    width: 167px;
+    height: 44px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fas{
+    width: 24px;
+    height: 24px;
+}
+.daraa{
+    width: 167px;
+    height: 44px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ins{
+    width: 24px;
+    height: 24px;
+}
+.tour{
+    width: 150px;
+    height: 55px;
+}
+.dugui{
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
